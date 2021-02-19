@@ -1,1 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 800px;
+}
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+h3 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+h4 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+h5 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+p {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: white;
+    margin: 5%;
+    height: 0rem;
+    min-height: 12vh;
+}
+
+.navbar-brand {
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.nav-item {
+    color: black;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.navbar-toggler {
+    background-color: white;
+    border: none;
+    padding: 10px 6px;
+    outline: black;
+}
+
+ .navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background:  #9008f4;
+}
+
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 22px;
+}
+
+ .navbar-toggler span + span + span {
+    width: 22px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #9008f4;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:active {
+    color: #9008f4;
+}  
+
+
 
